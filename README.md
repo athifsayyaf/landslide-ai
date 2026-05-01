@@ -18,7 +18,33 @@ Evaluate whether InSAR improves landslide prediction using ML.
 - AUROC comparison (with vs without InSAR)
 
 ## Structure
-Explain folders
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   ├── 01_gis_preprocessing.ipynb
+│   ├── 02_insar_processing.ipynb
+│   ├── 03_model_training.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── features.py
+│   ├── model.py
+│   ├── evaluation.py
+│
+├── results/
+│   ├── maps/
+│   ├── metrics/
+│
+├── report/
+│   ├── paper.pdf
+│
+├── slides/
+│   ├── summary.pdf
+│
+├── requirements.txt
+├── README.md
 
 ## How to Run
 pip install -r requirements.txt
